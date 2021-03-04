@@ -19,6 +19,7 @@ import { provisionInstanceServer } from "../../../redux/instanceConnection/servi
 import { selectLocationState } from '../../../redux/location/selector';
 import { selectCurrentScene } from '../../../redux/scenes/selector';
 import { Views, UserMenuProps } from './util';
+//@ts-ignore
 import styles from './style.module.scss';
 import ProfileMenu from './menus/ProfileMenu';
 import AvatarMenu from './menus/AvatarMenu';
